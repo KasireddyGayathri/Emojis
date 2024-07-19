@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layouts</title>
+
+    <style>
+        .container{
+            background-color: bisque;
+            display:grid;
+            gap: 10px;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: 100px 100px 100px;
+        }
+        .child{
+            background-color: aqua;
+        }
+        .child1{
+            background-image:url(./house.jpeg);
+        }
+        .child2{
+            grid-column-start:2;
+            grid-column-end:4;
+            background-image:url(./junction.jpeg);
+        }
+        .child3{
+            grid-row-start:2;
+            grid-row-end:4;
+            background-image:url(./lady.jpeg);
+        }
+        .child4{
+            background-image:url(./girl.jpeg);
+        }
+        .child5{
+            grid-column-start:3;
+            grid-column-end:4;
+            grid-row-start:2;
+            grid-row-end:4;
+            background-image:url(./prabhas.jpeg);
+        }
+        .child6{
+            background-image:url(./camera.jpeg);
+            }
+    </style>
+
+</head>
+<body>
+    <h1>Img gallery using grid</h1>
+
+
+    <div class="container">
+        <div class="child child1">1</div>
+        <div class="child child2">2</div>
+        <div class="child child3">3</div>
+        <div class="child child4">4</div>
+        <div class="child child5">5</div>
+        <div class="child child6">6</div>
+        <!--<div class="child child7">child7</div>
+        <div class="child child8">child8</div>
+        <div class="child child9">child9</div>-->
+    </div>
+    
+</body>
+</html>

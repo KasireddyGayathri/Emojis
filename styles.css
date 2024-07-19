@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: url('header-bg.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: #f8f9fa;
+}
+
+.search-section input {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.search-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.highlights {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.highlights h2 {
+    margin-bottom: 20px;
+}
+
+.highlights .cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.highlights .card {
+    width: 30%;
+    background: #e9ecef;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.features {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f8f9fa;
+}
+
+.features h2 {
+    margin-bottom: 20px;
+}
+
+.features .feature-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.features .feature-card {
+    width: 30%;
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.plans {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.plans h2 {
+    margin-bottom: 20px;
+}
+
+.plans .plan-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.plans .plan-card {
+    width: 30%;
+    background: #e9ecef;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
